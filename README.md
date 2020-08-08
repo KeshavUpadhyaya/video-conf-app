@@ -1,17 +1,26 @@
+# Video Conf
 A simple video chat application.
 
-Steps to run:
+## Installation
 
-Install nodejs v10
+Install nodejs v10.
 
-Open a terminal window and run:
+```bash
 npm i -g peer
+```
+
+
+## Usage
+Open a terminal window and run:
+```bash
 peerjs --port 3001
+```
 
 Open another terminal and run the following commands:
-cd video-conf-app
+```bash
 npm install
 npm start
+```
 
 Open localhost:3000 in your browser to start a call
 
